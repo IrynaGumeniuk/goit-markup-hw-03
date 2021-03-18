@@ -413,6 +413,10 @@ footer {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100%-90px) / 3);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .content .title {
