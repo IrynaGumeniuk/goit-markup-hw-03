@@ -18,27 +18,35 @@
     <header class="page-header">
       <!-- Шапка сайта -->
       <div class="container">
-        <nav class="site-nav">
-          <a href="index.html" class="logo"
-            ><span class="web">Web</span>Studio</a
-          >
-          <ul class="list">
-            <li><a href="" class="active link">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-
-        <ul class="auth-nav list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
+        <div class="header-flex">
+          <nav class="nav">
+            <a href="index.html" class="logo"
+              ><span class="web">Web</span>Studio</a
             >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
-        </ul>
+            <ul class="site-nav">
+              <li class="site-nav-item">
+                <a href="" class="active link">Студия</a>
+              </li>
+              <li class="site-nav-item">
+                <a href="./portfolio.html" class="link">Портфолио</a>
+              </li>
+              <li class="site-nav-item">
+                <a href="" class="link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="auth-nav">
+            <li class="auth-nav-item">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="auth-nav-item">
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -46,7 +54,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button">Заказать услугу</button>
+          <button class="hero-button" type="button">Заказать услугу</button>
         </div>
       </section>
 
@@ -54,29 +62,29 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Приоритеты компании</h2>
-          <ul class="list">
-            <li>
+          <ul class="priorities">
+            <li class="priorities-item">
               <h3 class="title">Внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="priorities-item">
               <h3 class="title">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="priorities-item">
               <h3 class="title">Планирование</h3>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="priorities-item">
               <h3 class="title">Современные технологии</h3>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -91,18 +99,18 @@
       <section class="section no-padding">
         <div class="container">
           <h2 class="title-h2">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="service-list">
+            <li class="service-item">
               <a href=""
                 ><img src="./images/img1.jpg" alt="Программирование"
               /></a>
             </li>
-            <li>
+            <li class="service-item">
               <a href=""
                 ><img src="./images/img2.jpg" alt="Создание макетов"
               /></a>
             </li>
-            <li>
+            <li class="service-item">
               <a href=""><img src="./images/img3.jpg" alt="Дизаин" /></a>
             </li>
           </ul>
@@ -110,11 +118,11 @@
       </section>
 
       <!-- Команда -->
-      <section class="section">
+      <section class="section team-bkg">
         <div class="container">
           <h2 class="title-h2">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="team-list">
+            <li class="team-item">
               <img
                 src="./images/team_card1.jpg"
                 width="270"
@@ -125,7 +133,7 @@
                 <p lang="en" class="team-job">Product Designer</p>
               </div>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/team_card2.jpg"
                 width="270"
@@ -136,7 +144,7 @@
                 <p lang="en" class="team-job">Frontend Developer</p>
               </div>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/team_card3.jpg"
                 width="270"
@@ -147,7 +155,7 @@
                 <p lang="en" class="team-job">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/team_card4.jpg"
                 width="270"
