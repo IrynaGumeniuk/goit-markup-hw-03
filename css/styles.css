@@ -410,13 +410,16 @@ footer {
 }
 
 .content-item {
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc((100%-90px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   background: #ffffff;
   border: 1px solid #eeeeee;
-  padding-left: 24px;
-  padding-right: 24px;
+}
+
+.content-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .content .title {
@@ -437,4 +440,8 @@ footer {
 .foto .item-footer {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.item-footer {
+  padding: 20px 24px;
 }
