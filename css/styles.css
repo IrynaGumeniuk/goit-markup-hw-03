@@ -355,6 +355,10 @@ footer {
 }
 
 /* Portfolio */
+.main {
+  background-color: var(--special-text-color);
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -428,6 +432,7 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  text-transform: none;
 }
 
 .content .text {
